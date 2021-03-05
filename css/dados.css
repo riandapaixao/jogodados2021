@@ -1,0 +1,62 @@
+html
+{
+background-color: #87CEFA;
+}
+
+.container
+{
+position: relative;
+margin: 0px auto; 
+width: 940px;
+padding-bottom: 10px;
+/*border-radius: 20px 0px 20px;*/
+	
+}
+
+body
+{
+font-family: "Comic Sans MS", "Lucida Grande", sans-serif;
+background-image: url ;
+background-size: 940px;
+border-style: solid;
+position: center;
+margin-left: 400px;
+margin-right: 400px;
+
+}	
+
+.boxjogo1
+{
+float: left;
+height: 200px;
+width: 200px;
+padding-left: 200px;	
+	
+}
+
+.boxjogo2
+{
+float: right;
+height: 200px;
+width: 200px;
+padding-right: 200px;	
+	
+}
+
+.rodape
+{
+padding-top: 300px;
+}
+
+.audio
+{
+padding-right: 10px;
+}
+
+.nomedoaluno
+{
+	padding-left: 300px;
+}
+
+
+	

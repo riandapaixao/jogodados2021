@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+	<center>
+	<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/dados.css">
+	<title> Jogo dos Dados</title>
+	</head>
+<body class="container">
+
+	<h1> Jogo dos Dados </h1>
+	<div id="boxcadastro">		
+			<label for="text">Jogador 1:</label>
+			<input type="text" name="nomeName" id="nickid" placeholder="Digite seu Nick"/>
+		<br>
+		<br>
+			<label for="text">Jogador 2:</label>
+			<input type="text" name="nomeName" id="nick2id" placeholder="Digite seu Nick"/>
+		<br>
+		<br>
+		
+		<p><input type="button" value="Cadastrar" onclick="Cadastrar()" id="btn-cadastrar-nick"/></P>
+		
+		
+		<img src="img/dadosanimados.gif" alt="Girl in a jacket" width="300" height="300">
+		
+	</div>
+
+		
+<div id="boxjogo" style="display:none">
+	<div class="boxjogo1">
+		<p id="nickname"> </p>
+		<p id="pontos"></p>
+		<img id="Img1" src="img/dado0.png" width="100px" height="100px"/>
+	</div>
+
+	<div class="boxjogo2"></p>
+		<p id="nickname2"></p>
+		<p id="pontos2"></p>
+		<img id="Img2" src="img/dado0.png" width="100px" height="100px"/>
+	</div>
+
+		<br>
+		<footer>
+	<div class="rodape">
+		
+		<h1><p id="demoresultado"></p></h1>
+		<button onclick="Sortear()"><h3> Sortear </h3></button> 
+		<button onclick="reset()"><h3> Reset </h3></button>
+	</div>
+	</footer>
+</div>
+		<hr>
+	<div class="audio">
+		<h5>Música do Jogo:</h5>
+		<audio controls>
+		<source src="music/canon.mp3" type="audio/mpeg">
+		</audio>
+	</div>
+	
+	<script src="js/dados.js"></script>
+	
+</body>
+</html>
